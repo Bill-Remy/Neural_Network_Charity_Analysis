@@ -6,13 +6,15 @@ The purpose of this analysis is to develop a predictive binary model for a chari
 
 ## Approach
 
-The approach for this project will be to develop a neural netorwk(NN) to evaluate the likelihood of successfully deploying the funds from Alphabet Soup.  The model will consider the numerical elements and categorical data from the applicants.  The categorical data will be converted to numerical values and all data will be scaled using StandardScaler.   The initial starting point for the model is to allocate 33% of the data for testing and 67% for training the model.  The initial model parameters for the network will consist of two hidden layers with 80 and 40 nodes repsectively.  The Relu activation function will be used.
+The approach for this project will be to develop a neural netorwk(NN) to evaluate the likelihood of successfully deploying the funds from Alphabet Soup.  The model will consider the numerical elements and categorical data from the applicants.  The categorical data will be converted to numerical values and all data will be scaled using StandardScaler.   The initial starting point for the model is to allocate 33% of the data for testing and 67% for training the model.  The initial model parameters for the network will consist of two hidden layers with 100 and 50 nodes repsectively.  The Relu activation function will be used.  The model will trained on 25 epochs.
 
+![image](https://user-images.githubusercontent.com/101779456/182060800-c26eb7ce-ea8b-481c-92f5-87dae67a3079.png)
 
 
 ## Initial Model Parameters - Results
 
-![image](https://user-images.githubusercontent.com/101779456/182060800-c26eb7ce-ea8b-481c-92f5-87dae67a3079.png)
+The results from the intial run are show below.  Model accuracy on test data was 61% which is lower than desired.
+
 ![image](https://user-images.githubusercontent.com/101779456/182060856-ba319358-97db-4516-a699-0b8510b0d6f2.png)
 
 
