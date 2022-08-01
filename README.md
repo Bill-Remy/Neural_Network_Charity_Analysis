@@ -19,21 +19,24 @@ The target variable is "IS_SUCCESSFUL" from the imported data.  All other fields
 The results from the intial run are show below.  Model accuracy on test data was 61% which is lower than desired.
 
 ![image](https://user-images.githubusercontent.com/101779456/182060735-bcbc5db0-fd95-4c45-bee6-89704a9963cc.png)
+## Optimization Approach
+In order to improve the performance of the model, Keras-Tuner will be used with the ability to search for best set of hyperparameters.  The routine for optimizing is shown below.
+
+![image](https://user-images.githubusercontent.com/101779456/182252152-55e953d0-4a7d-49f9-b967-181f9725539c.png)
 
 
 ## Optimization Run #1
-Changes:  
-** Added third layer
-** Layer 1 = 80 nodes
-** Layer 2 = 50 nodes
-** Layer 3 = 30 nodes
+Base Model with Application type data removed.  Run with Keras-Tuner.  
+
+
 
 ### Results
-![image](https://user-images.githubusercontent.com/101779456/182065467-1030f4b7-67ed-4a0b-b5b6-4c7dba9942c7.png)
+![image](https://user-images.githubusercontent.com/101779456/182251753-d1a6422e-3fb7-452f-bba0-5ee330b4d07b.png)
+
 
 ## Optimization Run #2
 
-Eliminated Application_type and Classification from the model
+Eliminated Application_type and Classification from the model.  Did not change any other parameters.  Run with keras-tuner.
 
 Model parameters
 ![image](https://user-images.githubusercontent.com/101779456/182066112-4be4df47-8dc7-4563-b217-ad1dab976bf8.png)
@@ -41,7 +44,7 @@ Model parameters
 
 ### Results
 
-![image](https://user-images.githubusercontent.com/101779456/182066005-eb0f7c97-b3b0-4180-a544-659a76fca303.png)
+
 
 
 ## Optimization Run #3
