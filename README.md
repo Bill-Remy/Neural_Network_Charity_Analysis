@@ -55,11 +55,17 @@ Added back all columns and reduced test data to 30%.
 ![image](https://user-images.githubusercontent.com/101779456/182253955-1b25f6ce-f61d-4b6e-adc9-158f08aa2c69.png)
 
 
-Optimization Run #4
+##Optimization Run #4
+
 All original columns, converted and scaled, test data at 30%, max_epochs at 30 in tuner.
 
 ### Results
 
 ![image](https://user-images.githubusercontent.com/101779456/182255826-1d85f496-b752-4d84-ad7e-ebb7c82eafb9.png)
+
+
+## Summary and Conclusions
+
+The model performed better with additional data for input and training.  The base model with two hidden layers performed at 
 
 
