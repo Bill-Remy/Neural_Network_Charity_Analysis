@@ -48,13 +48,18 @@ Model parameters
 
 
 ## Optimization Run #3
-** Reduced test size = .25
-** Eliminated Classification and Application_type
-** Used only one hidden layer with 150 nodes
-** Increaed Epochs to 50
+Added back all columns and reduced test data to 30%.
 
 ### Results
 
-![image](https://user-images.githubusercontent.com/101779456/182067273-c446a2d0-17af-4c13-b6ff-276cdf8f21b7.png)
+![image](https://user-images.githubusercontent.com/101779456/182253955-1b25f6ce-f61d-4b6e-adc9-158f08aa2c69.png)
+
+
+Optimization Run #4
+All original columns, converted and scaled, test data at 30%, max_epochs at 30 in tuner.
+
+### Results
+
+![image](https://user-images.githubusercontent.com/101779456/182255826-1d85f496-b752-4d84-ad7e-ebb7c82eafb9.png)
 
 
