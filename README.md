@@ -29,8 +29,19 @@ Model parameters
 ![image](https://user-images.githubusercontent.com/101779456/182066112-4be4df47-8dc7-4563-b217-ad1dab976bf8.png)
 
 
-
-
 ### Results
 
 ![image](https://user-images.githubusercontent.com/101779456/182066005-eb0f7c97-b3b0-4180-a544-659a76fca303.png)
+
+
+## Optimization Run #3
+** Reduced test size = .25
+** Eliminated Classification and Application_type
+** Used only one hidden layer with 150 nodes
+** Increaed Epochs to 50
+
+### Results
+
+![image](https://user-images.githubusercontent.com/101779456/182067273-c446a2d0-17af-4c13-b6ff-276cdf8f21b7.png)
+
+
