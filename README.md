@@ -52,7 +52,7 @@ All original columns, converted and scaled, test data at 25%, max_epochs at 30 i
 
 ## Optimization Run #4
 
-Decreased the testing data to 15%, using 85% of the data for training the model.
+Decreased the testing data to 15%, using 85% of the data for training the model.  Reset epochs back to 20 and ran 60 trials.
 
 ### Results
 
@@ -61,7 +61,7 @@ Decreased the testing data to 15%, using 85% of the data for training the model.
 
 ## Summary and Conclusions
 
-The model performed better with additional data for input and training.  The base model with two hidden layers performed at 61% accuracy.  By utilizing the Keras-Tuner algorithm and recursive testing of parameters the accuracy increased to 71% with the intial optimization settings.  Finally, with Optimization #2 and #3 the models performed at 72.9%.  Finally, on Optimization #5, the training data was increased to 85%.  The accuracy improved again to 73.3%.   The model is sensitive to having more data both for input and training.  Better performance was delivered by increasing the number of inputs and increasing the amount of data used for training.  
+The model performed better with additional data for input and training.  The base model with two hidden layers performed at 61% accuracy.  By utilizing the Keras-Tuner algorithm and recursive testing of parameters the accuracy increased to 71% with the intial optimization settings.  Finally, with Optimization #2 and #3 the models performed at 72.9%.  Finally, on Optimization #4, the training data was increased to 85%.  The accuracy improved again to 73.4%.   The model is sensitive to having more data both for input and training.  Better performance was delivered by increasing the number of inputs and increasing the amount of data used for training.  
 
 Additional data would possibly help to refine the model in improve accuracy.  If Alphabet Soup could gather additional data regarding the requestors it could be used to build the model further.  
 
